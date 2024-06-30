@@ -19,7 +19,7 @@ export const ContactUsIcon = () => {
 
 export const LogoIcon = () => {
   return (
-    <img src="src/assets/logo.png" alt="logo" className="w-28 h-28" />
+    <img src="./src/assets/logo.png" alt="logo" className="w-28 h-28" />
   );
 };
 

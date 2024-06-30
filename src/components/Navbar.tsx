@@ -51,7 +51,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex items-center"
             >
-                  <img src="src/assets/logo-header.png" alt="logo" className="w-24 p-2 h-20" />
+                  <img src="./src/assets/logo-header.png" alt="logo" className="w-24 p-2 h-20" />
 
              
             </a>
