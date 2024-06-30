@@ -1,3 +1,4 @@
+import footerlogo from "../assets/logo.png"
 export const ContactUsIcon = () => {
   return (
     <svg
@@ -19,7 +20,7 @@ export const ContactUsIcon = () => {
 
 export const LogoIcon = () => {
   return (
-    <img src="./src/assets/logo.png" alt="logo" className="w-28 h-28" />
+    <img src={footerlogo} alt="logo" className="w-28 h-28" />
   );
 };
 
