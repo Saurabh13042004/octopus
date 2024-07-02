@@ -14,8 +14,8 @@ const serviceList: ServiceProps[] = [
     icon: <UserIcon />,
   },
   {
-    title: "Hospitality Staff",
-    description: "Provide exceptional guest services and event support.",
+    title: "Hospitality Staff & Performers",
+    description: "Provide exceptional guest experience and events.",
     icon: <HeartIcon />,
   },
   {
@@ -34,17 +34,17 @@ export const Services = () => {
     <section className="container py-24 sm:py-32" id="services">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               Client-Centric{" "}
             </span>
             Services
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
+          {/* <p className="text-muted-foreground text-xl mt-4 mb-8 ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
             dolor.
-          </p>
+          </p> */}
 
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (

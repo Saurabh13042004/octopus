@@ -18,7 +18,7 @@ const features: FeatureProps[] = [
   },
   {
     title: "Exceptional Quality",
-    description: "Glamorous and professional promoters.",
+    description: "Glamorous promoters and skilled performers.",
   },
   {
     title: "Customer-first Philosophy",

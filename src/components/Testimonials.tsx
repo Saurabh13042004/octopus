@@ -26,8 +26,8 @@ const teamMembers: TeamMemberProps[] = [
     description: "Driving sales through impactful presentations.",
   },
   {
-    title: "Exhibition Specialists",
-    description: "Delivering success at trade shows.",
+    title: "Events Specialists",
+    description: "Delivering unique experiences at trade and entertainment shows.",
   },
 ];
 
@@ -35,7 +35,7 @@ export const Teams = () => {
   return (
     <section id="team" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
-        Meet Our Versatile Team
+        A Versatile Team
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">

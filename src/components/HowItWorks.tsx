@@ -24,7 +24,7 @@ const features: FeatureProps[] = [
     icon: <MapIcon />,
     title: "Diverse Services",
     description:
-      "From brand ambassadors to promotional modeling and more.",
+      "From brand Ambassadot's promotional models to performers and more.",
   },
 ];
 
@@ -34,17 +34,17 @@ export const HowItWorks = () => {
       id="mission"
       className="container text-center py-24 sm:py-32"
     >
-      <h2 className="text-3xl md:text-4xl font-bold ">
-        Our Mission
+      <h2 className="text-3xl md:text-4xl font-bold mb-8">
+        {/* Our Mission */}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Step-by-Step Guide
+          Our Mission
         </span>
       </h2>
-      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
+      {/* <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
         dolor pariatur sit!
-      </p>
+      </p> */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ icon, title, description }: FeatureProps) => (
