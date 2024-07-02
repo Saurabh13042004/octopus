@@ -1,4 +1,3 @@
-import { Statistics } from "./Statistics";
 import models from "../assets/indian-models.jpg";
 
 export const About = () => {
