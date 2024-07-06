@@ -21,7 +21,11 @@ export const Hero = () => {
           <main className="text-5xl md:text-6xl font-bold">
             <h1 className="inline">
               <span className="inline bg-gradient-to-r from-[#F596D3] to-[#D247BF] text-transparent bg-clip-text">
-                Octopus Promotions
+                Octopus
+              </span>
+              <br></br>
+              <span className="inline bg-gradient-to-r from-[#6bb1da] to-[#1182c4] text-transparent bg-clip-text">
+                 Promotions
               </span>
             </h1>{" "}
             <br />
